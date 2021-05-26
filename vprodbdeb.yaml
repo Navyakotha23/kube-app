@@ -13,9 +13,9 @@ spec:
     metadata:
       labels:
         app: vprodb
-  spec:
-    containers:
-      - name: vprodb
+    spec:
+      containers:
+        - name: vprodb
         image: vprofile/vprofiledb:V1
         args:
           - "ignore-db-dir=lost+found"
